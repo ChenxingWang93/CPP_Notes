@@ -20,6 +20,11 @@ int main()
 - main function `int main()`, the main function is a `int` type function.
 - return value `return 0`, it means this program run successfully.
 
+#### 📌Identifier 
+##### The name you assign in C++
+
+#### 📌Trigraph 
+
 #### 3.Data Type 数据类型
 #### 4.Variable Type 变量类型
 #### 5.Scope of Variable 变量的域
