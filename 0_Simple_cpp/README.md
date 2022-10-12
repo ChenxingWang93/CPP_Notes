@@ -4,8 +4,15 @@
 🔭🔭🔭 C++ program can be seen as a set of objects where they can interact with
 ```C++
 #include <iostream>
+using namespace std; //“std” is an abbreviation for standard
+// main() is the Main entry of a C++ program
 
+int main()
+{
+  
+}
 ```
+- header #include <iostream>, the decoration at the beginning of the `.cpp` file. it is either a library or a header file `.h` 
 
 #### 3.Data Type 数据类型
 #### 4.Variable Type 变量类型
