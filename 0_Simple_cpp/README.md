@@ -41,6 +41,56 @@ what is trigraph anyway?
 |7.   |??<     |{         |
 |8.   |??>     |}         |
 |9.   |??-     |~         |
+#### ⚠️trigraph is deprecated function of C++. If you compile in VS IDE, the warning will be prompted.
+#### 📌📌Space in C++
+##### Not like shell scripting, the space in C++ will be ignored.
+
+#### 📌📌Comments
+##### single line comments
+```C++
+//Single line comment
+```
+
+#### 📌📌Block of comments
+```C++
+/*
+ * This
+ * is 
+ * a block of comments
+ */
+```
+#### 📌📌Conditional inclusion 条件包含
+##### it uses `#ifdef`
+```C++
+#ifdef 
+#include <iostream>
+
+int main()
+{
+  //check something is defined?
+  #ifdef ABCD
+      std::cout << "1: yes\n";
+   #else
+      std::cout << "1: no\n";
+  #endif
+  
+  //check something is NOT defined?
+  #ifdef ABCD
+      std::cout << "2: no1\n";
+  #elif ABCD == 2
+      std::cout << "2: yes\n";
+  #else
+      std::cout << "2: no2\n";
+  #endif
+  
+  //check logic AND
+  #if !defined(DCBA) && (ABCD < 2*4-3)
+      std::cout << "3: yes\n";
+  #endif
+}  
+```
+
+
 
 #### 3.Data Type 数据类型
 #### 4.Variable Type 变量类型
