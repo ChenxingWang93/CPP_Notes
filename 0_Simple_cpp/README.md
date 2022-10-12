@@ -2,6 +2,15 @@
 ## A. C++ Basics
 ### 2.Basic of C++
 🔭🔭🔭 C++ program can be seen as a set of objects where they can interact with
+- Object: Object is of status and action and object is the instance of a class 对象的状态、动作是类的实例
+- Class: A template of any instances 实例的模版
+- Method: as known as function 实际是函数
+- Instant Variable: the status of an object is determined by this
+
+### 📌the structure of a C++ program
+```C++
+
+```
 
 ### 3.Data Type 数据类型
 ### 4.Variable Type 变量类型
