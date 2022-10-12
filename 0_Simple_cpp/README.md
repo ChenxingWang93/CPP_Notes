@@ -29,7 +29,7 @@ what is the purpose of trigraph?
 >##### convert some symbols to other symbols.(for some keyboard missing some symbols)
 
 what is trigraph anyway?
->##### trigraph always starts with ??
+>##### trigraph always starts with `??` which implies this is trigraph, and it takes the **3** symbols into **1** symbols
 
 
 #### 3.Data Type 数据类型
