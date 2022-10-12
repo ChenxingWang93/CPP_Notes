@@ -110,6 +110,20 @@ int main()
 |Void     |`void`      |
 |Wide character     |     |
                    
+##### 📌📌What is `typedef`
+it literally define a type with custom name. The syntax is
+```C++
+typedef <type> <new_name>;
+```
+e.g. `wchar_t` is combined with `short` and `int`.
+```C++
+typedef short int wchar_t;
+```
+  
+e.g. you can rename `int`. Now `feet` and `int` are the same.
+
+  
+  
 #### 4.Variable Type 变量类型
 #### 5.Scope of Variable 变量的域
 #### 6.Constant/Literals 
