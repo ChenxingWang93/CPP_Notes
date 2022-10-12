@@ -145,6 +145,7 @@ This can be conceived as the **adjective**形容词 of type
 |`signed int`     |4 Byte   |-2147483648 to 2147483647        |
 |`short int`      |2 Byte 	|-32768 to 32767                  |
 |`unsigned short int` |2 Byte|0 to 65,535                     |
+|signed short int
   
   
 #### 4.Variable Type 变量类型
