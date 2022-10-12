@@ -2,6 +2,8 @@
 ### A. C++ Basics
 #### 2.Basic of C++
 🔭🔭🔭 C++ program can be seen as a set of objects where they can interact with
+
+#### 📌The structure of a C++ program
 ```C++
 #include <iostream>
 using namespace std; //“std” is an abbreviation for standard
@@ -9,10 +11,14 @@ using namespace std; //“std” is an abbreviation for standard
 
 int main()
 {
-  
+  count << "Hello World"; //output Hello World
+  return 0;
 }
 ```
-- header #include <iostream>, the decoration at the beginning of the `.cpp` file. it is either a library or a header file `.h` 
+- header #include <iostream>, the decoration at the beginning of the `.cpp` file. it is either a library or a header file `.h`.
+- namespace `using namespace std` tell the compiler which namespace to use.
+- main function `int main()`, the main function is a `int` type function.
+- return value `return 0`, it means this program run successfully.
 
 #### 3.Data Type 数据类型
 #### 4.Variable Type 变量类型
