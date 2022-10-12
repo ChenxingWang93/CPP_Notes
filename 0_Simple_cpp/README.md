@@ -89,6 +89,13 @@ int main()
   #endif
 }  
 ```
+                   
+##### the output will be
+```C++
+1: yes
+2: yes
+3: yes
+```
 
 
 
