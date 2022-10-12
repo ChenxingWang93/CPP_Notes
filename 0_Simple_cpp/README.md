@@ -121,7 +121,24 @@ typedef short int wchar_t;
 ```
   
 e.g. you can rename `int`. Now `feet` and `int` are the same.
+```C++
+typedef int feet;
+feet age;
+```
 
+##### 📌📌Type decorator
+This can be conceived as the **adjective**形容词 of type
+- signed
+- unsigned
+- short
+- long
+
+##### 📌📌Frequently Used Data Type
+|Type             |Length   |Range                            |
+|-----------------|---------|---------------------------------|
+|`char`           |1 Byte   |-128 to 127 or 0 to 255          |
+|`unsigned char`  |1 Byte   |0 to 255                         |
+|
   
   
 #### 4.Variable Type 变量类型
