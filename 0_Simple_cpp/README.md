@@ -145,8 +145,21 @@ This can be conceived as the **adjective**形容词 of type
 |`signed int`     |4 Byte   |-2147483648 to 2147483647        |
 |`short int`      |2 Byte 	|-32768 to 32767                  |
 |`unsigned short int` |2 Byte|0 to 65,535                     |
-|signed short int
+|`signed short int`   |2 Byte|-32768 to 32767                 |
+|`long int`           |8 Byte|-9,223,372,036,854,775,808 to 9,223,372,036,854,775,807|
+|`signed long int`    |8 Byte|-9,223,372,036,854,775,808 to 9,223,372,036,854,775,807|
+|`unsigned long int`  |8 Byte|0 to 18,446,744,073,709,551,615 |
+|`float`              |4 Byte|4 Byte（32-bits），+/- 3.4e +/- 38 (~7 characters long number)|
+|`double`             |8 Byte|8 Byte（6-bits），+/- 1.7e +/- 308 (~15 characters long number)|
+|`long double`        |16 Byte 	|16 Byte（128-bits），18-19 characters long number|
+|wchar_t          |2 or 4 Byte 	|1 wide character             |
   
+##### 📌📌`sizeof()`
+return how many bytes will be taken of e.g.
+```C++
+cout << "boolean type takes：" << sizeof(bool) << " bytes";  
+```  
+The answer is 1 Byte.
   
 #### 4.Variable Type 变量类型
 #### 5.Scope of Variable 变量的域
