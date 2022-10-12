@@ -102,13 +102,14 @@ int main()
 ##### 📌📌Fundamental Primitive Data Type
 |Type|Keywords|
 |--------|----------|
-|??=     |bool      | 
-|??/     |char      |
-|??’     |^         |
-|??(     |[         |
-|??)     |]         |
-|??!     ||         |
-
+|Boolean      |`bool`      | 
+|Character    |`char`      |
+|Integer      |`int`       |
+|Floating type  |`float`     |
+|Double-precision type  |`double`    |
+|Void     |`void`      |
+|Wide character     |     |
+                   
 #### 4.Variable Type 变量类型
 #### 5.Scope of Variable 变量的域
 #### 6.Constant/Literals 
