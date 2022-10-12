@@ -98,8 +98,17 @@ int main()
 ```
 
 
-
 #### 3.Data Type 数据类型
+##### 📌📌Fundamental Primitive Data Type
+|Type|Keywords|
+|--------|----------|
+|??=     |bool      | 
+|??/     |char      |
+|??’     |^         |
+|??(     |[         |
+|??)     |]         |
+|??!     ||         |
+
 #### 4.Variable Type 变量类型
 #### 5.Scope of Variable 变量的域
 #### 6.Constant/Literals 
