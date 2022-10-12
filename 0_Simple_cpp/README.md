@@ -138,7 +138,13 @@ This can be conceived as the **adjective**形容词 of type
 |-----------------|---------|---------------------------------|
 |`char`           |1 Byte   |-128 to 127 or 0 to 255          |
 |`unsigned char`  |1 Byte   |0 to 255                         |
-|
+|`signed char`    |1 Byte 	|-128 to 127                      |
+|`int`            |4 Byte 	|-2147483648 to 2147483647        |
+|`unsigned int`   |4 Byte 	|0 to 4294967295                  |
+|`signed int`     |4 Byte   |-2147483648 to 2147483647        |
+|`signed int`     |4 Byte   |-2147483648 to 2147483647        |
+|`short int`      |2 Byte 	|-32768 to 32767                  |
+|`unsigned short int` |2 Byte|0 to 65,535                     |
   
   
 #### 4.Variable Type 变量类型
