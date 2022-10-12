@@ -30,6 +30,9 @@ what is the purpose of trigraph?
 
 what is trigraph anyway?
 >##### trigraph always starts with `??` which implies this is trigraph, and it takes the **3** symbols into **1** symbols
+|S.No.|Trigraph|Equivalent|
+|-----|--------|----------|
+|1.   |??=     |#         | 
 
 
 #### 3.Data Type 数据类型
