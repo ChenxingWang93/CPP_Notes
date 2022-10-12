@@ -23,7 +23,14 @@ int main()
 #### 📌Identifier 
 ##### The name you assign in C++
 
-#### 📌Trigraph 
+#### 📌Trigraph 三位一体
+
+what is the purpose of trigraph?
+>##### convert some symbols to other symbols.(for some keyboard missing some symbols)
+
+what is trigraph anyway?
+>##### trigraph always starts with ??
+
 
 #### 3.Data Type 数据类型
 #### 4.Variable Type 变量类型
