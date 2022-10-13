@@ -173,7 +173,11 @@ enum color {red, green, blue} c;
 c = blue;   
 ```
 
-
+the default constant for the elements start from 0,1,2,...n. But you can also overwrite this default values.
+```C++
+enum color { red, green=5, blue };
+```
+##### 📌📌Difference between typedef
   
 #### 4.Variable Type 变量类型
 #### 5.Scope of Variable 变量的域
