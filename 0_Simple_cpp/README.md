@@ -177,7 +177,19 @@ the default constant for the elements start from 0,1,2,...n. But you can also ov
 ```C++
 enum color { red, green=5, blue };
 ```
-##### 📌📌Difference between typedef
+##### 📌📌Difference between `typedef` and `#define`
+> 1.Different in execute time
+`typedef` executes in compiling therefore `type-check` will be associated.
+`#define` is a marco, It executes in linking. It literally replace A to B.
+```C++
+typedef unsigned int UINT;
+ 
+void func()
+{
+    UINT value = "abc"; // error C2440: 'initializing' : cannot convert from 'const char [4]' to 'UINT'
+    cout << value << endl;
+}
+```
   
 #### 4.Variable Type 变量类型
 #### 5.Scope of Variable 变量的域
