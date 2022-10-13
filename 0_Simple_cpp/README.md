@@ -157,9 +157,13 @@ This can be conceived as the **adjective**形容词 of type
 ##### 📌📌`sizeof()`
 return how many bytes will be taken of e.g.
 ```C++
-cout << "boolean type takes：" << sizeof(bool) << " bytes";  
+cout << "boolean type takes：" << sizeof(bool) << " bytes";
 ```  
 The answer is 1 Byte.
+
+##### 📌📌Enumeration枚举
+it is a set of enumerated constants.
+The patterns declaring enum is
   
 #### 4.Variable Type 变量类型
 #### 5.Scope of Variable 变量的域
