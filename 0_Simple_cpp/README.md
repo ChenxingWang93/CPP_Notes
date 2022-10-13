@@ -163,7 +163,17 @@ The answer is 1 Byte.
 
 ##### 📌📌Enumeration枚举
 it is a set of enumerated constants.
-The patterns declaring enum is
+The patterns declaring `enum` is
+```C++
+enum enum_name{identifier1, identifier2, identifier3} var_name;
+```
+Therefore, you can declare an `enum` like this:
+```C++
+enum color {red, green, blue} c;
+c = blue;   
+```
+
+
   
 #### 4.Variable Type 变量类型
 #### 5.Scope of Variable 变量的域
