@@ -190,6 +190,18 @@ void func()
     cout << value << endl;
 }
 ```
+
+```C++
+// #define example
+#define f(x) x*x
+int main()
+{
+  int a=6, b=2, c;
+  c= f(a) / f(b);
+  printf("%d/n", c);
+  return 0;
+}  
+```
   
 #### 4.Variable Type 变量类型
 #### 5.Scope of Variable 变量的域
