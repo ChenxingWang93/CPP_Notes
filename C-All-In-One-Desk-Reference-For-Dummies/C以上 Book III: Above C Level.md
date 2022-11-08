@@ -1,1 +1,7 @@
-
+### 1 Asking For Arrays //
+### 2 Strings //
+### 3 Messing with Characters //
+### 4 Stinkin’ Structures //结构
+### 5 Creating Own Functions  //创建自己的函数
+### 6 Quitting Before You're Done //完成之前退出
+### 7 More Variable Nonsense  //
