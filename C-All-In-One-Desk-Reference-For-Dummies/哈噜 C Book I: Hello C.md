@@ -45,6 +45,18 @@
 --------------------------------------------------
 
 ### 4 Introducing Numbers and Variables //数& 变量
+####  Going Numb with Numbers
+####  - The joys of integers  //整数
+####  - Flying high with floating-point numbers //浮点数
+####  Introduction to Variables //变量
+####  - Creating variables  //创建
+####  - Assigning values to variables //赋值
+####  - Using an int variable //整数变量
+####  - Changing a variable’s contents  //改变变量内容
+####  - Using a float variable  //浮点数变量
+####  - Using multiple variables  //多重变量
+####  - Immediately declaring a variable’s value  //声明变量值
+####  - Basic Math Operators  //基本数学运算
 
 --------------------------------------------------
 
