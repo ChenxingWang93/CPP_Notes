@@ -31,6 +31,16 @@
 ####  Reediting your source code  //重新编辑源码
 ####  Printing text with `printf()` //使用 `printf()` 打印文字
 ####  Introducing the newline, \n // 使用 `\n` 换行
+####  Adding Comments, Remarks, and Suggestions //注释、马克、建议
+####  - /* C language comments */
+####  - Using comments to disable code
+####  - Watch out for nested comments!  //注意⚠️注释
+####  - Fixing a double-quote problem //双引号""问题
+####  Debugging
+####  - Prepare to fail //准备失败
+####  - Dealing with linker errors  //链接🔗错误❌
+####  - Run-time errors and bugs  //运行时错误❌与bugs
+####  - Error messages subtle and gross //关于错误信息的细节
 
 
 
