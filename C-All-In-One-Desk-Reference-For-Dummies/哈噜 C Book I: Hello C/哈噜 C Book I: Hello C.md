@@ -1,5 +1,12 @@
 ### **1** Basic C Program //基础 C 程序
 ####  Describing the History of C //C 的历史 
+##### - C++
+##### - Perl
+##### - Java
+##### - Python
+##### learn new thing, baby step, keep program 
+
+
 ####  Time to Program!  //
 ####  - the basic simple c program  //基本简单的 c 程序
 ####  - the `main()` function // `main()` 函数
