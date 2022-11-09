@@ -1,4 +1,4 @@
-### 1 Basic C Program //基础 C 程序
+### **1** Basic C Program //基础 C 程序
 ####  Describing the History of C //C 的历史 
 ####  Time to Program!  //
 ####  - the basic simple c program  //基本简单的 c 程序
@@ -11,7 +11,7 @@
 
 --------------------------------------------------
 
-### 2 How It All Works//如何运行
+### **2** How It All Works//如何运行
 ####  C language  //c语言
 ####  - Keywords  //关键词
 ####  - Functions //函数
@@ -25,7 +25,7 @@
 
 --------------------------------------------------
 
-### 3 More Basics,Comments, and Errors//基础、注释、&错误
+### **3** More Basics,Comments, and Errors//基础、注释、&错误
 ####  Simple "Hello" Programs //
 ####  The STOP program
 ####  Reediting your source code  //重新编辑源码
@@ -44,7 +44,7 @@
 
 --------------------------------------------------
 
-### 4 Introducing Numbers and Variables //数& 变量
+### **4** Introducing Numbers and Variables //数& 变量
 ####  Going Numb with Numbers
 ####  - The joys of integers  //整数
 ####  - Flying high with floating-point numbers //浮点数
@@ -60,7 +60,7 @@
 
 --------------------------------------------------
 
-### 5 More Variables and Basic I/O //更多变量与基础I/O
+### **5** More Variables and Basic I/O //更多变量与基础I/O
 ####  The Good Ol’ char Variable
 ####  - Presenting the single character //展示单一
 ####  - Single quotes'' are holy too
@@ -79,23 +79,75 @@
 
 --------------------------------------------------
 
-### 6 Decision Time //决定时间
+### **6** Decision Time //决定时间
+####  Making Decisions with `if`  //做决定
+####  - Are they equal? //是否相等
+####  - The old less-than, greater-than puzzle  //
+####  - Even more comparisons!  //更多对比
+####  `else`, the `Anti-if` Statement 
+####  Or Else!
+####  Making Multiple Decisions //做多个决定
+####  - `else if` to the rescue!
+####  - get the order right
 
 --------------------------------------------------
 
-### 7 Looping //♻循环
+### **7** Looping //♻循环
+####  Presenting the `for` Loop // `for` 循环
+####  - Dissecting the `for` loop // 剖析 `for` 循环
+####  - Counting to 10  //数到10
+####  - Counting by twos  //两个 两个数
+####  Endless Loops //♾️ 循环
+####  - Your first endless loop //☝️ 个 ♾️ 循环
+####  - A forever loop on purpose //有目的的 ♾️ 循环
+####  - Breaking out with `break` // 打破 loop
+####  Nesting Loops //
+####  The 17,576 Names of God // 
+####  Multiple `for` Conditions // `for` 条件
 
 --------------------------------------------------
 
-### 8 Constants //
+### **8** Constants //
+####  Are Constants Necessary?  //Constants是否必要？
+####  - A program example to drive home the point
+####  - But then, something changes!  //
+####  - Chickening out and using variables instead  //
+####  Constants: The Anti-Variable! //反-变量
+####  - Declaring a constant  //声明一个constant
+####  - Using constants in your code  //在code里使用 constants
+####  Other Things You Can #define
 
 --------------------------------------------------
 
-### 9 Math  //数学
+### **9** Math  //数学
+####  Math Review //数学复盘
+####  The Sacred Order of Precedence  //
+####  - My Dear Aunt Sally
+####  - What about multiple multiplications?  //多个 乘法
+####  - Fooling old Sally with parentheses
+####  Say It Out Loud: Unary Operators! //
+####  - Going negative  //负数
+####  - Getting silly
+####  Incrementing and Decrementing and Loving It //增值、减值
+####  - Just add one to it  //添加一个
+####  - Just take one away from it
+####  - Pre-incrementing and post-incrementing  
+####  Other Cryptic Math Shortcuts  //其他隐秘的数学捷径
+####  - Incrementing by more than one //step大于于1的 Increment
+####  - Multiplying a variable by itself  //
 
 --------------------------------------------------
 
-### 10 Only Logical //只有逻辑
+### **10** Only Logical //只有逻辑
+####  Comparisons from Hell
+####  - YORN.C, attempt number 1  
+####  - YORN.C, attempt number 2
+####  - YORN.C, attempt number 3
+####  Here Are Your Logical Operators, Mr. Spock! //逻辑运算
+####  - Introducing Mr. Logical OR
+####  - Say hello to Mr. Logical AND
+####  - YORN.C, attempt number 4
+####  Multiple Madness with Logical Operators 
 
 
 --------------------------------------------------
