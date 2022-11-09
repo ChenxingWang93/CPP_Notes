@@ -4,7 +4,10 @@
 ##### - Perl
 ##### - Java
 ##### - Python
-##### learn new thing, baby step, keep program 
+##### learn new thing, baby step 4 editing, compiling, and running a program.
+##### save source code files on hard drive(`prog/c/basic`)
+##### command for most C compilers:
+##### `gcc dumb.c -o dumb`
 
 
 ####  Time to Program!  //
