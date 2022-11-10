@@ -6,8 +6,28 @@
 ##### - Python
 ##### learn new thing, baby step 4 editing, compiling, and running a program.
 ##### save source code files on hard drive(`prog/c/basic`)
+
+####  the basic, simple C program //基本、简易的C 程序
 ##### command for most C compilers:
 ##### `gcc dumb.c -o dumb`
+##### all C language program is in `main()` function  //所有 C语言存在 `main()` 函数中
+
+####  the `main()` function  //`main()` 函数
+##### when the OS runs a program, OS needs to know _where_ inside the program the control needs to be passed. In the case of a C language program,  //操作系统通过寻找 `main()` 函数 在程序中传递控制指令
+####  `main() {}`
+
+#### inside the `main()` function //在main() 函数中
+##### main()  //`main()` is called by the operating system when the program runs  `main()` 被操作系统called 
+##### main()  //`()` contain any information typed after the program name at the command prompt 包含在命令提示符下在程序名称之后键入的任何信息
+##### {}: //contain any arguments 包含任何arguments
+##### the braces are used for organization // 🤔{}的作用在于组织，他们包含属于函数的programming instructions，所以本质上他们是指示
+##### DUMB.C source code源代码创建了C lords称呼的 _dummy function_
+
+#### in C, unlike other programming languages, there is no needs for END and EXIT.
+#### in `main(){}`, the last `}` is the sign that program is done, after which control returns to the OS  // `}` 之后便回传到OS
+#### various ways to end a program before the last brace is encountered. 诸多结束应用程式的方式：1.使用 `return` 关键词 + `abort()` 与 `exit()` 函数；
+#### `return` 是 `main()` 函数的核心部分
+
 
 
 ####  Time to Program!  //
@@ -16,6 +36,24 @@
 ####  - inside the `main()` function //`main()`函数内
 ####  - "Am I Done?"  
 ####  - declaring `main()` as an `int`  //`main()` 作为 `int`
+##### 
+##### - `void:` 一个什么都不回传的函数 a function that doesn't return anything.
+##### - `int:` 一个回传一整个数字或者整数值的类型 a function that returns a whole number or _integer_ value.
+##### - `char` 回传文字 a function that returns text
+##### - `float` 非整数或者带小数的值的函数 A function that returns a non-whole number or value with a fractional part
+##### - `double` more precise than `float` 
+
+
+##### return a arctangent of an angle would be a `float` or `double` value  //回传 角的反正切值 
+
+##### in the most of the case where main() function return to the OS is a value, therefore the proper way to define the `main()` function: //因为 `main()`函数回传的是一个 值
+
+##### `int main() {}` is begins with `int`
+##### `return()` is responsible for sending a value back from a function:
+##### `return(0);`
+##### direct the computer to display text on the screen: `puts()` function
+##### `puts("Greetings, human!");`
+
 ####  - making `main()` do something  //让 `main()` 函数做点什么 
 ####  The C Skeleton  // 骨架
 
