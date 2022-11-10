@@ -51,12 +51,34 @@
 ##### `int main() {}` is begins with `int`
 ##### `return()` is responsible for sending a value back from a function:
 ##### `return(0);`
-##### direct the computer to display text on the screen: `puts()` function
+##### direct the computer to display text on the screen: `puts()` function  //🖨️显示文字在屏幕🖥上
 ##### `puts("Greetings, human!");`
+
+> ```C++
+> #include <studio.h>
+> ```
+
+##### `#include` isn't a word in the C programming language. Instead, it's an instruction for the compiler to _include_ another file on disk,// 指示编译器包含另一个文件📃到硬盘中
+
+##### in above case, the text is grabbed from the file named _studio.h_ , which is the standard input/output header file for the C language//C语言的I/O
+##### the final complete source code for DUMB.C should looks like this:
+
+> ```C++
+> #include <studio.h>
+> int main()
+> {
+>     puts("Greetings, human!");
+>     return(0);
+> }
+
+##### it needs to be done only once to specify header file no matter how many time you use a function in C
+##### but for other functions use other head files, such as MATH.H, STDLIB.H
+
 
 ####  - making `main()` do something  //让 `main()` 函数做点什么
 ##### how `puts()` file into the DUMB.C source code:
 > ```C++
+> #include <stdio.h>
 > int main()
 > {
 >     puts("Greetings, human!");
@@ -65,6 +87,16 @@
 > ```
 
 ####  The C Skeleton  // 骨架
+##### Most C language source code listings start with a basic skeloton that looks like this://多数c语言代码都以基础的架构呈现
+> ```
+> #include <something.h>
+> int main()
+> {
+>     statement;
+>     statement;
+>     return(0);
+> }
+> ```
 
 --------------------------------------------------
 
