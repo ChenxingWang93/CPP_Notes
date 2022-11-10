@@ -88,7 +88,7 @@
 
 ####  The C Skeleton  // 骨架
 ##### Most C language source code listings start with a basic skeloton that looks like this://多数c语言代码都以基础的架构呈现
-> ```
+> ```C++
 > #include <something.h>
 > int main()
 > {
@@ -101,13 +101,60 @@
 --------------------------------------------------
 
 ### **2** How It All Works//如何运行
-####  C language  //c语言
+####  C language Computer Programming Bag of Tools  //c语言
+##### - A programming language  //语言
+##### - An editor, to create source code files  //  编辑器
+##### - A compiler and linker, to create program files  //编译器、链接器、
+##### it's the compiler’s job to convert the source code files into a program.
+
+
+
 ####  - Keywords  //关键词
+##### 32 keywords, some are specific programming commands directing the computer to do something  //特定计算机指令指引计算机行为
+##### some are used in conjunction with other keywords to make up commands, //与其他关键词组合成指令
+##### some are used to create things your program uses  //创建一些供程序使用的
+##### some are antique, and a couple of them are never used!//一些是从没用过的老古董
+|**Table2-1 **|**C Language Keywords C 语言关键词**|-|-|
+|-------------|----------------------------------|-|-|
+|auto         |double                            |int |struct |
+|break        |else                              |long|switch |
+|case         |enum                              |register|typedef|
+|char         |extern                            |return  |union  |
+|const        |float                             |short   |unsigned|
+|continue     |for                               |signed  |void    |
+|default      |goto                              |sizeof  |volatile|
+|do           |if                                |static  |while   |
+
+
 ####  - Functions //函数
+##### the C language, has hundreds of functions.Most programs use a common set of about 50 or so.
+##### `abort();` function is used to quit program
+##### `puts("Hello!");` //展示文字在屏幕上
+##### `key = getchar();` //functions return information from the computer, telling u what's going on 从电脑回传的信息，告诉你进程
+##### `root = sqrt(27);`  //takes a value and returns that value's square root:
+
 ####  - Operator  //操作符
+##### `sum = first + second`
+
 ####  - Variables and values  //变量与值
+##### use various numbers and bits of text called _strings_, they are known collectively as _values_ or _variables_,
+##### 
+
 ####  - Other C language goodies //其他c 语言的优势
+##### C language syntax glue the words, functions, and operators together
+
 ####  Put it Together in Editor //编辑环境
+> ```
+> #include <stdio.h>
+> #define TOTAL 300
+> int main()
+> {
+>     int count;
+>     for(count=0;count<TOTAL;count++)
+>         printf("I think I am going to be sick!")
+> }
+> ```
+
 ####  - Compiler  //编译器
 ####  - The object code file  //对象代码文件📃
 ####  - The linker  //连接器
