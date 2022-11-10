@@ -54,7 +54,16 @@
 ##### direct the computer to display text on the screen: `puts()` function
 ##### `puts("Greetings, human!");`
 
-####  - making `main()` do something  //让 `main()` 函数做点什么 
+####  - making `main()` do something  //让 `main()` 函数做点什么
+##### how `puts()` file into the DUMB.C source code:
+> ```C++
+> int main()
+> {
+>     puts("Greetings, human!");
+>     return(0);
+> }
+> ```
+
 ####  The C Skeleton  // 骨架
 
 --------------------------------------------------
