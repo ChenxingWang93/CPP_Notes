@@ -54,7 +54,7 @@
 ##### direct the computer to display text on the screen: `puts()` function  //🖨️显示文字在屏幕🖥上
 ##### `puts("Greetings, human!");`
 
-> ```C++
+> ```C
 > #include <studio.h>
 > ```
 
@@ -63,7 +63,7 @@
 ##### in above case, the text is grabbed from the file named _studio.h_ , which is the standard input/output header file for the C language//C语言的I/O
 ##### the final complete source code for DUMB.C should looks like this:
 
-> ```C++
+> ```C
 > #include <studio.h>
 > int main()
 > {
@@ -88,7 +88,7 @@
 
 ####  The C Skeleton  // 骨架
 ##### Most C language source code listings start with a basic skeloton that looks like this://多数c语言代码都以基础的架构呈现
-> ```C++
+> ```C
 > #include <something.h>
 > int main()
 > {
@@ -105,7 +105,7 @@
 ##### - A programming language  //语言
 ##### - An editor, to create source code files  //  编辑器
 ##### - A compiler and linker, to create program files  //编译器、链接器、
-##### it's the compiler’s job to convert the source code files into a program.
+##### it's the compiler’s job to convert the source code files into a program.  //编译器的任务是将源代码转化为应用程序
 
 
 
@@ -144,7 +144,7 @@
 ##### C language syntax glue the words, functions, and operators together
 
 ####  Put it Together in Editor //编辑环境
-> ```
+> ```C
 > #include <stdio.h>
 > #define TOTAL 300
 > int main()
@@ -156,6 +156,8 @@
 > ```
 
 ####  - Compiler  //编译器
+##### read source code file and convert the source code into _object_ code, //source 
+
 ####  - The object code file  //对象代码文件📃
 ####  - The linker  //连接器
 
