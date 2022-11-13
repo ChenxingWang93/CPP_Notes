@@ -165,6 +165,16 @@
 #### _#include_ directive directs the compiler to insert special files into source code
 #### _.H_ stands for header //.H 是header 的意思
 
+<img width="750" alt="Screen Shot 2022-11-13 at 00 56 21" src="https://user-images.githubusercontent.com/31954987/201513843-24ca7ec5-c75f-4c92-92b9-32587cf9829c.png">
+
+#### an object file isn't a program file. what the compiler has done is translate, or parse, the c language you typed, converting the instructions into a type of shorthand. //对象文件不是一个程序文件，编译器所做的是translate, 或者parse c语言把提示转化为 
+####  gcc -c sick .c
+#### type the command and press Enter. 
+#### use the _dir_ or _ls_ _-l_ command to view the contents of the directory 
+
+<img width="569" alt="Screen Shot 2022-11-13 at 01 07 28" src="https://user-images.githubusercontent.com/31954987/201514207-344c9a8c-cd70-41e4-b143-bccf4e54930a.png">
+
+
 #### in Windows, a folder named _include_ branching beneath the main folder where the compiler is installed, such as `\MinGW\include` //在分支 主文件夹📁下，编译器安装
 #### in Unix, the folder is `/usr/include`
 
@@ -198,7 +208,7 @@
 --------------------------------------------------
 
 ### **3** More Basics,Comments, and Errors//基础、注释、&错误
-####
+####  
 
 ####  Simple "Hello" Programs //
 ####  The STOP program
