@@ -156,7 +156,41 @@
 > ```
 
 ####  - Compiler  //编译器
-##### read source code file and convert the source code into _object_ code, //source 
+##### read source code file and convert the source code into _object_ code, //转化源代码为 对象代码
+##### but splitting the tasks into two part: compiling &linking //但实际上分为：编译与链接🔗
+
+<img width="495" alt="Screen Shot 2022-11-12 at 18 48 22" src="https://user-images.githubusercontent.com/31954987/201503228-79641d58-3fcd-4dc0-85a1-5dbf43bc1675.png">
+
+### finding header files  //找到头部文件📃
+#### _#include_ directive directs the compiler to insert special files into source code
+#### _.H_ stands for header //.H 是header 的意思
+
+#### in Windows, a folder named _include_ branching beneath the main folder where the compiler is installed, such as `\MinGW\include` //在分支 主文件夹📁下，编译器安装
+#### in Unix, the folder is `/usr/include`
+
+##### the preprocessor includes a header file.
+##### how _#include_ directive inserts a header file into source code; it doesn't modify the source code file itself.
+
+##### linker's job is to find C language files and link them in with your object code to create the final program file. //连接器的作用：找到C语言的文件库并与对象代码建立联系来创造最终的应用程序文件📃
+
+##### windows: _lib_ directory is found beneath the directory where ur compiler is installed. //在编译器安装的目录下
+##### unix: _/usr/lib_ directory
+##### for instance, to compile some high-level math function you must specifically link in a math library.  //
+##### example, explains that the option you must type is _-lm_ to include the math library: //包括数学库
+
+> ```C
+> gcc -lm math_program.c -o
+>    math_program
+> ```
+
+##### in this command, the _-lm_ switch directs the linker to fetch and include the math library (name _m_). That library includes the instructions necessary for the _sqrt()_ function to work // _-lm_ 切换
+
+##### the size of the library file directly affects the size of the final program you create  //库文件的大小直接影响最后创建程序的大小
+##### C language functions lives in the libraries, not in the header files  
+
+
+##### to use the routines, you must both use the proper header file and link in the appropriate library for your compiler.  //合适头部文件 链接到合适的图库给编译器
+
 
 ####  - The object code file  //对象代码文件📃
 ####  - The linker  //连接器
@@ -164,6 +198,8 @@
 --------------------------------------------------
 
 ### **3** More Basics,Comments, and Errors//基础、注释、&错误
+####
+
 ####  Simple "Hello" Programs //
 ####  The STOP program
 ####  Reediting your source code  //重新编辑源码
