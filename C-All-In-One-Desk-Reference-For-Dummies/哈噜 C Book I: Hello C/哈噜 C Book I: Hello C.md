@@ -208,14 +208,57 @@
 --------------------------------------------------
 
 ### **3** More Basics,Comments, and Errors//基础、注释、&错误
-####  
+####  - understanding different types of errors //不同类型的错误❌
+####  - fixing problems and erroes  //解决问题与错误❌
+####  - displaying even more error message  //显示更多错误❌
 
-####  Simple "Hello" Programs //
-####  The STOP program
-####  Reediting your source code  //重新编辑源码
-####  Printing text with `printf()` //使用 `printf()` 打印文字
-####  Introducing the newline, \n // 使用 `\n` 换行
-####  Adding Comments, Remarks, and Suggestions //注释、马克、建议
+
+### simple "hello" programs //简单的"hello"项目
+### the STOP program
+> ```C
+> #include <stdio.h>
+> int main()
+> {
+>     puts("Stop: Unable to stop.");
+>     return(0);
+> }
+> ```
+#### program uses _puts()_ function to display a string of text to the screen
+#### save source code to disk as STOP.C. Compile and run the program:
+> ```C
+> Stop: Unable to stop.
+> ```
+
+
+###  reediting your source code //重新编辑源码
+####  reedit the source code for STOP.C. Add a second _puts()_ function below the first:
+> ``` C
+> puts(“Missing fragus found in memory.”);
+> ```
+
+### printing text with _printf()_ //使用 `printf()` 打印文字
+####  _printf()_ function prints formatted text(print-formatted).This gives you more control over the outputs,
+
+
+###  Introducing the newline, \n // 使用 `\n` 换行
+####  \(backslash)
+#### the compiler sees `\n` as one character.
+
+
+###  Adding Comments, Remarks, and Suggestions //注释、马克、建议
+> ``` C
+> /*STOP.c source code. By Dan Gookin. February 26, 2009*/
+> #include <stdio.h>
+> int main()
+> {
+> /* NOTE: added a beep to the following line
+> The \a is the Alert or bell character */
+> put("\aStop: Unable to stop.");
+> put("Missing fragus found in memory.");
+> return(0);
+> }
+> ```
+
 ####  - /* C language comments */
 ####  - Using comments to disable code
 ####  - Watch out for nested comments!  //注意⚠️注释
