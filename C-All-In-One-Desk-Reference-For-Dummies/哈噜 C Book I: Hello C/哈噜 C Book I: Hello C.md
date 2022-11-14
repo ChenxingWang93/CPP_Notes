@@ -23,7 +23,7 @@
 ##### the braces are used for organization // 🤔{}的作用在于组织，他们包含属于函数的programming instructions，所以本质上他们是指示
 ##### DUMB.C source code源代码创建了C lords称呼的 _dummy function_
 
-#### in C, unlike other programming languages, there is no needs for END and EXIT.
+#### in C, unlike other programming languages, there is no needs for END and EXIT.  //不同于其他编程语言, C不需要END & EXIT
 #### in `main(){}`, the last `}` is the sign that program is done, after which control returns to the OS  // `}` 之后便回传到OS
 #### various ways to end a program before the last brace is encountered. 诸多结束应用程式的方式：1.使用 `return` 关键词 + `abort()` 与 `exit()` 函数；
 #### `return` 是 `main()` 函数的核心部分
