@@ -326,10 +326,11 @@
 |Function 函数 |Format 样式                    |Description 描述  |
 |getchar()    |[ch = ]getchar();              |Reads a single character from the keyboard. The character is displayed and, optionally, stored in the _char_ variable _ch_. 从键盘上读取一个单一的字符。存储在_char_ 类型的名为_ch_ 的变量中|
 |gets()     |gets(string);                  |read a string of text from the keyboard(terminated by the enter key.)The text is stored in the variable _string_ 文字存储在变量 _string_ 中|
-|printf()   |printf("format"[,var[,var...]]);|
-|putchar()  |putchar(ch);                    |
-|puts()     |puts(string);                   |
-|scanf()    |
+|printf()   |printf("format"[,var[,var...]]);|displays formatted text according to the format string. Optional values or variables, var, can be specified to match placeholders or conversion characters in the format string.(See Appendix G for the full list.)根据格式展示格式文件。可选择的值或者变量, var, 能被声明用来匹配 占位符或者转换字符|
+|putchar()  |putchar(ch);                    |displays the character _ch_ on the screen, where _ch_ is a single character in single string of text or the name of a string variable 展示 _ch_ 字符在🖥上，_ch_ 是单一字符或者escape code 
+|puts()     |puts(string);                   |在🖥上展示一个text string, _string_ 是一个text在语义上的string(enclosed in double quotes) 或者是一个string 变量的名字，换句话说这个string究竟是一个text作为string还是一个变量
+|scanf()    |scanf("format",&var);           |根据转化字符从键盘上读取信息in format string, 信息因此存储在变量 _var_ 中，必须要与各种字符的转化类型相匹配(例如：`int`, `float` or `char`)|
+|atof()     |[numvar = ]atof(string);        |
 
 
 --------------------------------------------------
