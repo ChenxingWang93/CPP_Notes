@@ -304,20 +304,32 @@
 --------------------------------------------------
 
 ### **5** More Variables and Basic I/O //更多变量与基础I/O
-####  The Good Ol’ char Variable
-####  - Presenting the single character //展示单一
-####  - Single quotes'' are holy too
-####  - Here a char, there a char, everywhere a char char //这里一个 `char`， 那里一个 `char`， 到处都是 `char` `char` `char`
-####  - Displaying characters one at a time with putchar()  //使用 `putchar()` 展示characters
-####  - Using char as a tiny integer value  // char 作为 整数integer 值
-####  Getting Input from the Keyboard //从键盘⌨️接收 输入
-####  - Reading the keyboard one key at a time  //一次读一个 按键
-####  - The problem with getchar()  // `getchar()` 的问题
-####  - Clearing the input stream //输入流的 清晰
-####  - Reading a chunk of text with gets() // `gets()` 读取大块 文字
-####  - How to input numeric values //如何输入 数值
-####  - Directly reading values with scanf()  // 用 `scanf()` 直接读取 值
-####  Summary of Basic Text I/O Functions //基本 文字 I/O 函数
+####  
+
+
+###  The Good Ol’ char Variable
+###  - Presenting the single character //展示单一
+###  - Single quotes'' are holy too
+###  - Here a char, there a char, everywhere a char char //这里一个 `char`， 那里一个 `char`， 到处都是 `char` `char` `char`
+###  - Displaying characters one at a time with putchar()  //使用 `putchar()` 展示characters
+###  - Using char as a tiny integer value  // char 作为 整数integer 值
+###  Getting Input from the Keyboard //从键盘⌨️接收 输入
+###  - Reading the keyboard one key at a time  //一次读一个 按键
+###  - The problem with getchar()  // `getchar()` 的问题
+###  - Clearing the input stream //输入流的 清晰
+###  - Reading a chunk of text with gets() // `gets()` 读取大块 文字
+###  - How to input numeric values //如何输入 数值
+###  - Directly reading values with scanf()  // 用 `scanf()` 直接读取 值
+###  Summary of Basic Text I/O Functions //基本 文字 I/O 函数
+|Table 5-1  |C Language Text I/O Functions  | |
+|-----------|-------------------------------|-|
+|Function 函数 |Format 样式                    |Description 描述  |
+|getchar()    |[ch = ]getchar();              |Reads a single character from the keyboard. The character is displayed and, optionally, stored in the _char_ variable _ch_. 从键盘上读取一个单一的字符。存储在_char_ 类型的名为_ch_ 的变量中|
+|gets()     |gets(string);                  |read a string of text from the keyboard(terminated by the enter key.)The text is stored in the variable _string_ 文字存储在变量 _string_ 中|
+|printf()   |printf("format"[,var[,var...]]);|
+|putchar()  |putchar(ch);                    |
+|puts()     |puts(string);                   |
+|scanf()    |
 
 
 --------------------------------------------------
