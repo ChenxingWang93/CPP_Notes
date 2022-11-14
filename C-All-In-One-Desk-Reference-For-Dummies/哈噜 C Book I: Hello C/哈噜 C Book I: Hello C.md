@@ -259,9 +259,25 @@
 > }
 > ```
 
-####  - /* C language comments */
+###  - /* C language comments */
 ####  - Using comments to disable code
+> ``` C
+> #include <stdio.h>
+> int main()
+> {
+>     printf("The First Soloist\n\n"); /* Extra blank line */
+>     printf("Vocalist Mary McDiva\n");
+> /*  printf("Song, “Under the Sea.”\n"); */
+> }
+> ```
+
+> ``` C
+> 
+> ```
+
 ####  - Watch out for nested comments!  //注意⚠️注释
+
+
 ####  - Fixing a double-quote problem //双引号""问题
 ####  Debugging
 ####  - Prepare to fail //准备失败
