@@ -208,6 +208,10 @@
 --------------------------------------------------
 
 ### **3** More Basics,Comments, and Errors//基础、注释、&错误
+####  - Putting text up on the screen //把文字打印在屏幕上
+####  - Displaying hard-to-type characters  //展示难输入的字符
+####  - Adding comments to your code  //添加注释到code中
+####  - Avoiding nested comments  //避免 密集的注释
 ####  - understanding different types of errors //不同类型的错误❌
 ####  - fixing problems and erroes  //解决问题与错误❌
 ####  - displaying even more error message  //显示更多错误❌
