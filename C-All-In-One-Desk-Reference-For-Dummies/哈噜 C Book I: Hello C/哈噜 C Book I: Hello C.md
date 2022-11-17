@@ -219,25 +219,31 @@
 
 
 ### simple "hello" programs //简单的"hello"项目
-### the STOP program
+### the STOP program  //名为 “停止🤚” 的程序
 > ```C
 > #include <stdio.h>
 > int main()
 > {
+>     /*puts()函数用来展示 a string of 文字到🖥上*/
+>     
 >     puts("Stop: Unable to stop.");
 >     return(0);
 > }
 > ```
-#### program uses _puts()_ function to display a string of text to the screen
-#### save source code to disk as STOP.C. Compile and run the program:
+// #### program uses _puts()_ function to display a string of text to the screen
+#### save source code to disk as STOP.C. Compile and run the program: //
+
 > ```C
+> /**/
 > Stop: Unable to stop.
 > ```
 
 
 ###  reediting your source code //重新编辑源码
 ####  reedit the source code for STOP.C. Add a second _puts()_ function below the first:
+
 > ``` C
+> /*第2⃣️个put()*/
 > puts(“Missing fragus found in memory.”);
 > ```
 
