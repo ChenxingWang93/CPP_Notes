@@ -55,13 +55,14 @@
 ##### `puts("Greetings, human!");`
 
 > ```C
+> /**/
 > #include <studio.h>
 > ```
 
 ##### `#include` isn't a word in the C programming language. Instead, it's an instruction for the compiler to _include_ another file on disk,// 指示编译器包含另一个文件📃到硬盘中
 
 ##### in above case, the text is grabbed from the file named _studio.h_ , which is the standard input/output header file for the C language//C语言的I/O
-##### the final complete source code for DUMB.C should looks like this:
+##### the final complete source code for DUMB.C should looks like this: 
 
 > ```C
 > #include <studio.h>
@@ -178,8 +179,8 @@
 #### in Windows, a folder named _include_ branching beneath the main folder where the compiler is installed, such as `\MinGW\include` //在分支 主文件夹📁下，编译器安装
 #### in Unix, the folder is `/usr/include`
 
-##### the preprocessor includes a header file.
-##### how _#include_ directive inserts a header file into source code; it doesn't modify the source code file itself.
+##### the preprocessor includes a header file.  //预处理器包括一个头部文件
+##### how _#include_ directive inserts a header file into source code; it doesn't modify the source code file itself.  //_#include_ 指令插入一个头部📃到源代码中，它并不直接修改源代码📃本身
 
 ##### linker's job is to find C language files and link them in with your object code to create the final program file. //连接器的作用：找到C语言的文件库并与对象代码建立联系来创造最终的应用程序文件📃
 
