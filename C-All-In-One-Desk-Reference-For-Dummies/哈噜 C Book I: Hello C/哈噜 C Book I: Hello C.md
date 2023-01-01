@@ -103,7 +103,12 @@
 
 ### **2** How It All Works//如何运行
 ####  C language Computer Programming Bag of Tools  //c语言
-##### - A programming language  //语言
+##### - A programming language  //一种编码语言
+##### the language consists of three major parts:
+- keywords
+- Functions
+- Operators
+
 ##### - An editor, to create source code files  //  编辑器
 ##### - A compiler and linker, to create program files  //编译器、链接器、
 ##### it's the compiler’s job to convert the source code files into a program.  //编译器的任务是将源代码转化为应用程序
@@ -142,7 +147,7 @@
 ##### 
 
 ####  - Other C language goodies //其他c 语言的优势
-##### C language syntax glue the words, functions, and operators together
+##### C language syntax glue the words, functions, and operators together, for example, in C you use braces, {and} to group things together.//C语言句法粘接关键词、函数、与运算符
 
 ####  Put it Together in Editor //编辑环境
 > ```C
@@ -156,9 +161,11 @@
 > }
 > ```
 
+
+
 ####  - Compiler  //编译器
-##### read source code file and convert the source code into _object_ code, //转化源代码为 对象代码
-##### but splitting the tasks into two part: compiling &linking //但实际上分为：编译与链接🔗
+##### read source code file and convert the source code into _object_ code, //转化源代码为 对象代码 
+##### but splitting the tasks into two part: compiling &linking //但实际上分为：编译与链接🔗两个步骤
 
 <img width="495" alt="Screen Shot 2022-11-12 at 18 48 22" src="https://user-images.githubusercontent.com/31954987/201503228-79641d58-3fcd-4dc0-85a1-5dbf43bc1675.png">
 
