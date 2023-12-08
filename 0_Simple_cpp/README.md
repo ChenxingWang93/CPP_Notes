@@ -1,13 +1,17 @@
 ## Table of Content
 ### A. C++ Basics
 #### 2.Basic of C++
-🔭🔭🔭 C++ program can be seen as a set of objects where they can interact with
+🔭🔭🔭 C++ program can be seen as a set of objects where they can interact C++ 程序能被看作互相交互的一系列对象
+- Object: Object is of status and action and object is the instance of a class 对象是 ‘状态’ ‘动作’，对象是类的实例
+- Class: A template of any instances 任意实例的模版
+- Method: also known as a function 方法也是一种函数
+- Instant Variable: determining the status of an object 决定了对象的状态
 
-#### 📌The structure of a C++ program
+#### 📌The structure of a C++ program C++ 程序的结构
 ```C++
 #include <iostream>
 using namespace std; //“std” is an abbreviation for standard
-// main() is the Main entry of a C++ program
+// main() is the Main entry of a C++ program C++ 程序主要入口
 
 int main()
 {
