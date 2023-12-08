@@ -24,16 +24,16 @@ int main()
 - main function `int main()`, the main function is a `int` type function. `int main()` 是 `int` 类型的主函数
 - return value `return 0`, it means this program run successfully. 回传值 `return 0` 意味着程序成功运行
 
-#### 📌Identifier 
-##### The name you assign in C++
+#### 📌Identifier 标识符  
+##### The name you assign in C++ assign 的名字
 
 #### 📌Trigraph 三位一体
 
-what is the purpose of trigraph?
->##### convert some symbols to other symbols.(for some keyboard missing some symbols)
+what is the purpose of trigraph? trigraph 的目的是什么？
+>##### convert some symbols to other symbols.(for some keyboard missing some symbols) 转换一些符号到其他的符号，（一些键盘上缺失的符号）
 
 what is trigraph anyway?
->##### trigraph always starts with `??` which implies this is trigraph, and it takes the **3** symbols into **1** symbols
+>##### trigraph always starts with `??` which implies this is trigraph, and it takes the **3** symbols into **1** symbols 以 `??` 开始，暗示这是一个trigraph
 |S.No.|Trigraph|Equivalent|
 |-----|--------|----------|
 |1.   |??=     |#         | 
