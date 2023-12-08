@@ -10,7 +10,7 @@
 #### 📌The structure of a C++ program C++ 程序的结构
 ```C++
 #include <iostream>
-using namespace std; //“std” is an abbreviation for standard
+using namespace std; //“std” is an abbreviation for standard “std” 是 standard 的缩写
 // main() is the Main entry of a C++ program C++ 程序主要入口
 
 int main()
@@ -19,10 +19,10 @@ int main()
   return 0;
 }
 ```
-- header #include <iostream>, the decoration at the beginning of the `.cpp` file. it is either a library or a header file `.h`.
-- namespace `using namespace std` tell the compiler which namespace to use.
-- main function `int main()`, the main function is a `int` type function.
-- return value `return 0`, it means this program run successfully.
+- header #include <iostream>, the decoration at the beginning of the `.cpp` file. it is either a library or a header file `.h`. 
+- namespace `using namespace std` tell the compiler which namespace to use. 告诉编译器使用哪个命名空间
+- main function `int main()`, the main function is a `int` type function. `int main()` 是 `int` 类型的主函数
+- return value `return 0`, it means this program run successfully. 回传值 `return 0` 意味着程序成功运行
 
 #### 📌Identifier 
 ##### The name you assign in C++
