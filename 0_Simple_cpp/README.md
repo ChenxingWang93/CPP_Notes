@@ -166,25 +166,25 @@ cout << "boolean type takes：" << sizeof(bool) << " bytes";
 The answer is 1 Byte.
 
 ##### 📌📌Enumeration枚举
-it is a set of enumerated constants.
-The patterns declaring `enum` is
+it is a set of enumerated constants. 一系列可枚举的常量
+The patterns declaring `enum` is 模式声明 
 ```C++
 enum enum_name{identifier1, identifier2, identifier3} var_name;
 ```
-Therefore, you can declare an `enum` like this:
+Therefore, you can declare an `enum` like this: 因此，你能声明 一个 `enum`
 ```C++
 enum color {red, green, blue} c;
 c = blue;   
 ```
 
-the default constant for the elements start from 0,1,2,...n. But you can also overwrite this default values.
+the default constant for the elements start from 0,1,2,...n. But you can also overwrite this default values. 默认元素的常量 从 0,1,2,...n. 但你可以重写这些默认常量
 ```C++
 enum color { red, green=5, blue };
 ```
-##### 📌📌Difference between `typedef` and `#define`
-> 1.Different in execute time
-`typedef` executes in compiling therefore `type-check` will be associated.
-`#define` is a marco, It executes in linking. It literally replace A to B.
+##### 📌📌Difference between `typedef` and `#define` 差别
+> 1.Different in execute time 执行时间上的
+`typedef` executes in compiling therefore `type-check` will be associated. 
+`#define` is a marco,一个宏 It executes in linking.执行链接 It literally replace A to B. 由 A 替代为 B
 ```C++
 typedef unsigned int UINT;
  
@@ -206,6 +206,11 @@ int main()
   return 0;
 }  
 ```
+
+``` C++
+Different in their function 
+```
+`typedef` define the **alias** of something, its definition is not relevant to the data type. 定义某事 
   
 #### 4.Variable Type 变量类型
 #### 5.Scope of Variable 变量的域
