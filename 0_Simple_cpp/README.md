@@ -45,14 +45,14 @@ what is trigraph anyway?
 |7.   |??<     |{         |
 |8.   |??>     |}         |
 |9.   |??-     |~         |
-#### ⚠️trigraph is deprecated function of C++. If you compile in VS IDE, the warning will be prompted.
+#### ⚠️trigraph is deprecated function of C++. If you compile in VS IDE, the warning will be prompted. trigraph 是被弃用的函数，如果在VS 编译，会出现warning
 #### 📌📌Space in C++
-##### Not like shell scripting, the space in C++ will be ignored.
+##### Not like shell scripting, the space in C++ will be ignored. C++ 中的 space 会被 ignored
 
 #### 📌📌Comments
 ##### single line comments
 ```C++
-//Single line comment
+//Single line comment 
 ```
 
 #### 📌📌Block of comments
@@ -94,7 +94,7 @@ int main()
 }  
 ```
                    
-##### the output will be
+##### the output will be 输出为
 ```C++
 1: yes
 2: yes
@@ -103,7 +103,7 @@ int main()
 
 
 #### 3.Data Type 数据类型
-##### 📌📌Fundamental Primitive Data Type
+##### 📌📌Fundamental Primitive Data Type 基础元数据类型
 |Type|Keywords|
 |--------|----------|
 |Boolean      |`bool`      | 
@@ -115,7 +115,7 @@ int main()
 |Wide character     |     |
                    
 ##### 📌📌What is `typedef`
-it literally define a type with custom name. The syntax is
+it literally define a type with custom name. The syntax is 实际定义了具有自定义名称的类型，它的语法是
 ```C++
 typedef <type> <new_name>;
 ```
@@ -130,7 +130,7 @@ typedef int feet;
 feet age;
 ```
 
-##### 📌📌Type decorator
+##### 📌📌Type decorator 类型装饰器
 This can be conceived as the **adjective**形容词 of type
 - signed
 - unsigned
@@ -159,7 +159,7 @@ This can be conceived as the **adjective**形容词 of type
 |wchar_t          |2 or 4 Byte 	|1 wide character             |
   
 ##### 📌📌`sizeof()`
-return how many bytes will be taken of e.g.
+return how many bytes will be taken of e.g. 回传占据多少位
 ```C++
 cout << "boolean type takes：" << sizeof(bool) << " bytes";
 ```  
