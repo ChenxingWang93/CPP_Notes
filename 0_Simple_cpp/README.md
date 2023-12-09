@@ -210,20 +210,20 @@ int main()
 }  
 ```
 
-> Different in their function
+> 2.Different in their function
 
 `typedef` define the **alias** of something, its definition is not relevant to the data type. 定义某事, 其定义与数据类型不相关
 
 `#define` not only can giving an **alias** but also can define **constant**, **variable**, **option of compile**.
 
-> different in their scope
+> 3.Different in their scope
 
 `typedef` has its own scope.
 
 `#define` does not have a scope.
 
 ``` C++
-//typedef only affect its scope
+// typedef only affect its scope
 void method1()
 {
     typedef unsigned int UINT;
@@ -236,6 +236,20 @@ void method2()
 }
 ```
 
+
+``` C++
+// #define can apply out of its scope
+void method1()
+{
+    #define HW "HelloWorld";
+}
+void method2()
+{
+    string str = HW;
+    cout << str << endl;
+}
+```
+> 4. Different in pointers
 
 ``` C++
 
