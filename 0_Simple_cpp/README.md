@@ -185,6 +185,7 @@ enum color { red, green=5, blue };
 > 1.Different in execute time 执行时间上的
 `typedef` executes in compiling therefore `type-check` will be associated. 
 `#define` is a marco,一个宏 It executes in linking.执行链接 It literally replace A to B. 由 A 替代为 B
+
 ```C++
 typedef unsigned int UINT;
  
@@ -207,11 +208,18 @@ int main()
 }  
 ```
 
-``` C++
-Different in their function 
-```
-`typedef` define the **alias** of something, its definition is not relevant to the data type. 定义某事 
-  
+> Different in their function
+
+`typedef` define the **alias** of something, its definition is not relevant to the data type. 定义某事, 其定义与数据类型不相关
+
+`#define` not only can giving an **alias** but also can define **constant**, **variable**, **option of compile**.
+
+> different in their scope
+
+`typedef` has its own scope.
+
+`#define` does not have a scope.
+
 #### 4.Variable Type 变量类型
 #### 5.Scope of Variable 变量的域
 #### 6.Constant/Literals 
