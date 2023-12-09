@@ -222,6 +222,25 @@ int main()
 
 `#define` does not have a scope.
 
+``` C++
+//typedef only affect its scope
+void method1()
+{
+    typedef unsigned int UINT;
+}
+
+void method2()
+{
+    UINT uValue = 5;//error C2065: 'UINT' : undeclared identifier
+}
+}
+```
+
+
+``` C++
+
+```
+
 #### 4.Variable Type 变量类型
 #### 5.Scope of Variable 变量的域
 #### 6.Constant/Literals 
