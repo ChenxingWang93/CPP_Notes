@@ -183,7 +183,9 @@ enum color { red, green=5, blue };
 ```
 ##### 📌📌Difference between `typedef` and `#define` 差别
 > 1.Different in execute time 执行时间上的
-`typedef` executes in compiling therefore `type-check` will be associated. 
+
+`typedef` executes in compiling therefore `type-check` will be associated.
+
 `#define` is a marco,一个宏 It executes in linking.执行链接 It literally replace A to B. 由 A 替代为 B
 
 ```C++
