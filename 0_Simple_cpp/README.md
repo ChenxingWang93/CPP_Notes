@@ -252,7 +252,29 @@ void method2()
 > 4. Different in pointers
 
 ``` C++
+typedef int * pint;
+#define PINT int *
 
+int i1 = 1, i2 = 2;
+
+const pin p1 = &i1;    //change of p[x], what p points to [√], equivalent to int * const p;
+const pin p2 = &i2;    //change of p[√], what p points to [x], equivalent to const int *p; or int const *p;
+
+pint s1, s2;           //s1 and s2 are of pointer
+PINST s3, s4;          //equivalent to int * s3, s4; there is only 1 pointer
+
+void TestPointer()
+{
+    cout << "p1:" << p1 << "  *p1:" << *p1 << endl;
+    //p1 = &i2; //error C3892: 'p1' : you cannot assign to a variable that is const
+    *p1 = 5;
+    cout << "p1:" << p1 << "  *p1:" << *p1 << endl;
+
+    cout << "p2:" << p2 << "  *p2:" << *p2 << endl;
+    //*p2 = 10; //error C3892: 'p2' : you cannot assign to a variable that is const
+    p2 = &i1;
+    cout << "p2:" << p2 << "  *p2:" << *p2 << endl;
+}
 ```
 
 #### 4.Variable Type 变量类型
