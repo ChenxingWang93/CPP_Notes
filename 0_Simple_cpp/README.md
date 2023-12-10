@@ -278,6 +278,18 @@ void TestPointer()
 ```
 
 #### 4.Variable Type 变量类型
+a variable is really nothing more than the name of a storage area. Each variable in C++ has a specified type, and the type determines the size and location of the variable's storage.
+
+|Type|Description|
+|--------|-----------|
+|`bool`||
+|`char`||
+|`int`||
+|`float`||
+|`double`||
+|`void`||
+|`wchar_t`||
+
 #### 5.Scope of Variable 变量的域
 #### 6.Constant/Literals 
 #### 7.Modifier
