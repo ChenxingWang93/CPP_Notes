@@ -321,6 +321,5 @@ a variable is really nothing more than the name of a storage area. Each variable
 
 ### C. C++ Advanced
 
-
 ### D. Disk Drive C
 ####
