@@ -350,7 +350,19 @@ int main()
 |`double` |0            |
 |`pointer`|             |
 
-#### 6.Constant/Literals 
+#### 6.Constant/Literals
+There are some general knowledge listing here. In computers, there are 3 different types of integer.
+此处列出了一些常识，在计算机中，3种类型的整数
+
+> #### Prefix 字首
+` ` nothing before a number, **decimal** - 10 进制
+`0` before a number, octal - 8 进制
+`0x` or `0X` before a number, hexadecimal - 16 进制
+
+> #### Suffix 后缀
+
+
+
 #### 7.Modifier
 #### 8.Storage Class
 #### 9.Operators
