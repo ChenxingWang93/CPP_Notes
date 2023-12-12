@@ -388,11 +388,38 @@ a floating-point constant consists of an **integer part** 整数部分
 
 & an **exponential part** 指数部分
 
-You can use either the ***decimal form*** or the ***exponential form*** to represent floating-point constants 能使用 ***小数点 形式*** 或 ***指数 形式***
+You can use either the ***decimal form*** or the ***exponential form*** to represent floating-point constants 能使用 ***小数点 形式*** 或 ***指数 形式*** 来表示浮点数
 
-📌
+📌 Character Literals 字符文字
 
-#### 7.Modifier
+Wide character `wchar_t`, normally starts with `L` & single quote `''` e.g. `L'x'`
+
+Normal character `char`, single quote, e.g. `'x'`
+
+📌 Escape Sequence 转义序列
+🔭🔭🔭 big scope: What ***escape character*** really means is that the C++ compiler would take these character then translate to another form. C++ 编译器把这些字符翻译为其他形式。
+
+```C++
+std::cout << "This is escape character. \\" << std::endl;
+```
+
+the output would be
+```
+This is escape character. \
+```
+
+| escape character | meaning   |
+|------------------|-----------|
+|`\\`              |`\`        |
+|`\'`              |`'`        |
+|`\"`              |`"`        |
+|`\?`              |`?`        |
+|`\a`              |Alarm      |
+|`\b`              |Backspace  |
+|`\f`              |Change Page|
+
+
+#### 7.Modifier 修饰符
 #### 8.Storage Class
 #### 9.Operators
 #### 10.Loop Types
