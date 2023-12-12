@@ -356,12 +356,41 @@ There are some general knowledge listing here. In computers, there are 3 differe
 
 > #### Prefix 字首
 ` ` nothing before a number, **decimal** - 10 进制
+
 `0` before a number, octal - 8 进制
+
 `0x` or `0X` before a number, hexadecimal - 16 进制
 
 > #### Suffix 后缀
+`U` or `u` behind a number, **unsigned** value 
 
+`L` or `l` behind a number, **long** value
 
+📌Integer Literals 整数文字
+
+```C++
+85        // decimal
+0213      // octal
+0x4b      // hexadecimal
+
+30        // integer
+30u       // unsigned integer
+30l       // long integer
+30ul      // unsigned long integer
+```
+
+📌 Floating Literals 浮点数文字
+a floating-point constant consists of an **integer part** 整数部分
+
+**a decimal separator** 小数点
+
+**a decimal** 小数部分, 
+
+& an **exponential part** 指数部分
+
+You can use either the ***decimal form*** or the ***exponential form*** to represent floating-point constants 能使用 ***小数点 形式*** 或 ***指数 形式***
+
+📌
 
 #### 7.Modifier
 #### 8.Storage Class
