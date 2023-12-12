@@ -339,6 +339,17 @@ int main()
 }
 ```
 
+> #### :warning: Unlike C#, you can declare one variable twice in global and local scope. BUT! The local will overwrite global one.
+
+📌Initial value
+|Data Type|Initial Value|
+|---------|-------------|
+|`int`    |0            |
+|`char`   |'\0'         |
+|`float`  |0            |
+|`double` |0            |
+|`pointer`|             |
+
 #### 6.Constant/Literals 
 #### 7.Modifier
 #### 8.Storage Class
