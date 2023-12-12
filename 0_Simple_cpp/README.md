@@ -279,6 +279,7 @@ void TestPointer()
 
 #### 4.Variable Type 变量类型
 a variable is really nothing more than the name of a storage area. 一个变量无非就是一个存储区域的名称
+
 Each variable in C++ has a specified type, and the type determines the size and location of the variable's storage. 每个变量在 C++ 中都有一个特定的类型，类型决定了变量存储的 大小 和 位置
 
 |Type|Description|
