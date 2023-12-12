@@ -293,6 +293,13 @@ Each variable in C++ has a specified type, and the type determines the size and 
 |`wchar_t`||
 
 #### 5.Scope of Variable 变量的域
+🔭🔭🔭 Big picture: A trick to find out the scope of a variable - The variable only affects inside its nearest curly bracket `{}` 找到变量的域 - 变量只会影响最近 `{}` 的内部
+> #### Local
+
+```C++
+
+```
+
 #### 6.Constant/Literals 
 #### 7.Modifier
 #### 8.Storage Class
