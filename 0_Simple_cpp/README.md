@@ -3,9 +3,9 @@
 #### 2.Basic of C++
 🔭🔭🔭 C++ program can be seen as a set of objects where they can interact C++ 程序能被看作互相交互的一系列对象
 - Object: Object is of status and action and object is the instance of a class 对象是 ‘状态’ ‘动作’，对象是类的实例
-- Class: A template of any instances 任意实例的模版
+- Class: A template of any instances 任意实例的一个模版
 - Method: also known as a function 方法也是一种函数
-- Instant Variable: determining the status of an object 决定了对象的状态
+- Instant Variable: determining the status of an object 决定了一个对象的状态
 
 #### 📌The structure of a C++ program C++ 程序的结构
 ```C++
@@ -19,20 +19,20 @@ int main()
   return 0;
 }
 ```
-- header #include <iostream>, the decoration at the beginning of the `.cpp` file. it is either a library or a header file `.h`. 
+- header #include <iostream>, the decoration at the beginning of the `.cpp` file. it is either a library or a header file `.h`. 是一个库或者是一个头文件
 - namespace `using namespace std` tell the compiler which namespace to use. 告诉编译器使用哪个命名空间
-- main function `int main()`, the main function is a `int` type function. `int main()` 是 `int` 类型的主函数
-- return value `return 0`, it means this program run successfully. 回传值 `return 0` 意味着程序成功运行
+- main function `int main()`, the main function is a `int` type function. 主函数 `int main()` 是 `int` 类型的主函数
+- return value `return 0`, it means this program runs successfully. 回传值 `return 0` 意味着这个程序成功运行
 
 #### 📌Identifier 标识符  
-##### The name you assign in C++ assign 的名字
+##### The name you assign in C++ assign 分配的名称
 
 #### 📌Trigraph 三位一体
 
 what is the purpose of trigraph? trigraph 的目的是什么？
 >##### convert some symbols to other symbols.(for some keyboard missing some symbols) 转换一些符号到其他的符号，（一些键盘上缺失的符号）
 
-what is trigraph anyway?
+what is trigraph anyway? 
 >##### trigraph always starts with `??` which implies this is trigraph, and it takes the **3** symbols into **1** symbols 以 `??` 开始，暗示这是一个trigraph
 |S.No.|Trigraph|Equivalent|
 |-----|--------|----------|
