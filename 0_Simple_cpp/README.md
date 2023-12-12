@@ -295,9 +295,48 @@ Each variable in C++ has a specified type, and the type determines the size and 
 #### 5.Scope of Variable 变量的域
 🔭🔭🔭 Big picture: A trick to find out the scope of a variable - The variable only affects inside its nearest curly bracket `{}` 找到变量的域 - 变量只会影响最近 `{}` 的内部
 > #### Local
-
 ```C++
+#include <iostream>
+using namespace std;
 
+int main ()
+{
+  // declare/define local variable 声明/定义局部变量
+  int a, b;
+  int c;
+
+  // init
+  a = 10;
+  b = 20;
+  c = a + b;
+
+  cout << c;
+
+  return 0; 
+}
+```
+> #### Global
+```C++
+#include <iostream>
+using namespace std;
+
+// declare global variable
+int g;
+
+int main()
+{
+  // declare local
+  int a, b;
+
+  // int
+  a = 10;
+  b = 20;
+  g = a + b;
+
+  cout << g;
+
+  return 0;
+}
 ```
 
 #### 6.Constant/Literals 
